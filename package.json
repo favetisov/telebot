@@ -1,0 +1,46 @@
+{
+  "name": "telebot",
+  "version": "0.0.1",
+  "description": "simple nodejs telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "nodemon --watch src -e ts --exec 'ts-node -r tsconfig-paths/register client/server.ts'",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/favetisov/telebot.git"
+  },
+  "keywords": [
+    "Telegram",
+    "Bot"
+  ],
+  "author": "Fedor Avetisov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/favetisov/telebot/issues"
+  },
+  "homepage": "https://github.com/favetisov/telebot#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "^4.2.0",
+    "node-fetch": "^2.6.1",
+    "reflect-metadata": "^0.1.13",
+    "telegram-typings": "^4.0.0-beta"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "conventional-changelog-cli": "^2.1.0",
+    "inquirer": "^7.3.3",
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.2",
+    "replace-in-file": "^6.1.0",
+    "rimraf": "^3.0.2",
+    "semver": "^7.3.2",
+    "simple-git": "^2.20.1",
+    "ts-jest": "^26.4.1",
+    "ts-node": "^9.0.0",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.0.3"
+  }
+}
